@@ -1,0 +1,47 @@
+db.createCollection("user");
+db.user.insertMany(
+
+[
+
+    { 
+        "user_id": 1, 
+        "name": "Arunkumar", 
+        "email": "arunkumar09@gmail.com", 
+        "location": "coimbatore" 
+
+    },
+
+    { 
+        "user_id": 2, 
+        "name": "Vijayakumar", 
+        "email": "vijayakumar123@gmail.com",  
+        "location": "Tanjor" 
+
+    },
+
+    { 
+        "user_id": 3, 
+        "name": "Mithra", 
+        "email": "mithra21@gmail.com", 
+        "location": "kerala" 
+
+    },
+
+    { 
+        "user_id": 4, 
+        "name": "Alagesan", 
+        "email": "alagesan88@gmail.com",  
+        "location": "chithambaram" 
+
+    },
+
+    { 
+        "user_id": 5, 
+        "name": "jake sully", 
+        "email": "jakesully@gmail.com",  
+        "location": "U.S" 
+
+    }
+]
+
+);

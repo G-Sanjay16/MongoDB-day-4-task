@@ -1,0 +1,42 @@
+db.createCollection("codekata");
+db.codekata.insertMany(
+
+[
+
+    { 
+        "user_id": 1, 
+        "user_name": "Arunkumar", 
+        "codekata_solved": 400, 
+        "webkata_solved": 40 
+    },
+
+    { 
+        "user_id": 2, 
+        "user_name": "Vijayakumar", 
+        "codekata_solved": 500, 
+        "webkata_solved": 50 
+    },
+
+    { 
+        "user_id": 3, 
+        "user_name": "Mithra", 
+        "codekata_solved": 250, 
+        "webkata_solved": 60
+    },
+
+    { 
+        "user_id": 4, 
+        "user_name": "Alagesan", 
+        "codekata_solved": 200, 
+        "webkata_solved": 75 
+    },
+
+    { 
+        "user_id": 5, 
+        "user_name": "jake sully", 
+        "codekata_solved": 100, 
+        "webkata_solved": 100
+    }
+]
+
+);
